@@ -57,7 +57,7 @@ and run `systemctl restart NetworkManager`
 
 KICK HOW TO FOR TPL Drivers
 
-##[Download and Installation]
+##Download and Installation
 ```apt update && apt upgrade
 
 apt install -y bc linux-headers-amd64
