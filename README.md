@@ -55,16 +55,23 @@ wifi.scan-rand-mac-address=no
 
 and run `systemctl restart NetworkManager`
 
-## KICK HOW TO FOR TPL Drivers
+KICK HOW TO FOR TPL Drivers
 
-[Download and Installation]
-apt update && apt upgrade
+##[Download and Installation]
+```apt update && apt upgrade
+
 apt install -y bc linux-headers-amd64
+
 git clone https://github.com/kimocoder/rtl8188e...
+
 cd rtl8188eus
+
 cp realtek_blacklist.conf /etc/modprobe.d
+
 make
+
 make install
+```
 
 [Enabling Monitor Mode]
 systemctl stop NetworkManager.service
